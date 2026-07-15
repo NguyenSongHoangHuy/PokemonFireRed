@@ -43,6 +43,12 @@
 #define BIT_SIDE        1
 #define BIT_FLANK       2
 
+// Move types
+#define MOVE_TYPE_NONE      255
+#define MOVE_TYPE_PHYSICAL    0
+#define MOVE_TYPE_SPECIAL  1
+#define MOVE_TYPE_STATUS   2
+
 // Battle Type Flags
 #define BATTLE_TYPE_DOUBLE             (1 << 0)
 #define BATTLE_TYPE_LINK               (1 << 1)
